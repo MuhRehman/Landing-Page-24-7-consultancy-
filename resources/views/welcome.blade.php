@@ -168,8 +168,9 @@
   <img class="object-cover all-line" src="{{ URL('assets/all line.png') }}"    alt="sssss">
         <div class="banner-wrapper">
              <div class="inner-content text-center">
-              <h1>Transforming Medical Billing Where <span>Accuracy</span> Meets <span> Ingenuity</span></h1>
-              <p>Welcome to Mediclaims Solutions. Our company has been operating with accuracy, efficiency, and integrity, emerging in healthcare revenue cycle management by simplifying processes and allowing providers to concentrate on quality care at the end of service.</p>
+              <h1 class="hidden md:block">Transforming Medical Billing Where <span>Accuracy</span> Meets <span> Ingenuity</span></h1>
+              <h1 class=" sm-block">We Help You tho Grow Your  <span>Business</span></h1>
+              <p class="hidden md:block">Welcome to Mediclaims Solutions. Our company has been operating with accuracy, efficiency, and integrity, emerging in healthcare revenue cycle management by simplifying processes and allowing providers to concentrate on quality care at the end of service.</p>
              
             <button class=" hover:bg-emerald-300 text-white font-bold py-2 px-4 rounded-full started-btn mt-12 bg-[#53BD95]">GET STARTED 
                <span class="icon-arrow bg-[#FFFFFF] rounded-full  p-2 ml-4 ">
@@ -218,7 +219,7 @@
         <!-- <div class="p-2 mt-6 bg-green-200 text-green-800 flex flex-wrap text-center mx-auto gap-2"> -->
           
         <div class="grid-cols-10 mx-auto  mt-2 ">
-        <div class="flex justify-center mt-4 mb-4">
+        <div class="flex-custom mt-4 mb-4">
  
         <div class="contain-item  rounded p-5">
         <img class="object-item" src="{{ URL('assets/airbnb.png') }}"    alt="sssss">
@@ -259,7 +260,7 @@
         <section class="website-section mt-3 mb-3">
         <div class="p-2  grid md:grid-cols-2 gap-2">
            
-            <div class=" p-5 website-text">
+            <div class=" p-5 website-text sm:order-last">
             <div class="">
             <img class="object-stars" src="{{ URL('assets/stars.png') }}"    alt="sssss">
             </div>
@@ -273,14 +274,14 @@
             
                <svg width="9" height="10" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1 1L8 7L1 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
+               </svg>
 
             </span>
            </button>
             </div>
             </div>
 
-            <div class="p-5 ">
+            <div class="p-5  sm:order-1">
             <img class="object-cover" src="{{ URL('assets/status.png') }}"    alt="sssss">
             </div>
           </div>
