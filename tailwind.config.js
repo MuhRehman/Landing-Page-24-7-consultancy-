@@ -6,8 +6,11 @@ export default {
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
         './storage/framework/views/*.php',
         './resources/**/*.blade.php',
+        './resources/views/welcome.blade.php',
         './resources/**/*.js',
         './resources/**/*.vue',
+        './pages/**/*.{html,js}',
+        './components/**/*.{html,js}',
     ],
     theme: {
         extend: {
