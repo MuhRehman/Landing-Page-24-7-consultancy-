@@ -157,6 +157,51 @@ color: #999;
     margin-left: auto;
     margin-right: auto;
  }
+ .customer-wrap {
+  position: relative;
+  padding: 42px;
+  background-image: url('../assets/customer/bg-stars.png');
+  background-repeat: no-repeat;
+    background-position: center top;
+    height: 600px;
+ }
+ .customer-wrap  .customer-item {
+  position: absolute;
+ }
+ .customer-wrap  .customer-item-bgmain {
+  position: absolute;
+  left: 16px;
+  top: 40px;
+ }
+ .customer-wrap  .customer-item-activity {
+  position: absolute;
+  left: 0px;
+  top: 120px;
+ }
+
+ .customer-wrap .customer-item-overview {
+  position: absolute;
+  left: 120px;
+  top: 102px;
+ }
+ .status-wrap {
+  position: relative;
+ }
+ .status-wrap .status-bg {
+  position: absolute;
+  z-index: 0;
+ }
+ .status-wrap .status-bar {
+  position: absolute;
+  top: -5px;
+  z-index: 100;
+ }
+ .status-wrap .status-lead {
+  position: absolute;
+  bottom: -0px;
+  right: 50px;
+  z-index: 400;
+ }
 /* ------------slider------------ */
 #wrap{
     background-color: #ddd;

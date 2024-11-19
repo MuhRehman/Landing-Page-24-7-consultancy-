@@ -245,8 +245,13 @@
 
         </div>
         <div class="p-2 customer-content  mt-6 grid md:grid-cols-2 gap-2">
-            <div class="p-5 ">
-            <img class="object-cover" src="{{ URL('assets/customers.png') }}"    alt="sssss">
+            <div class="p-5 customer-wrap">
+           
+            <img class="object-covers customer-item-bgmain" src="{{ URL('assets/customer/bgmain.svg') }}"    alt="status">
+           
+            <img class="object-covers customer-item-activity" src="{{ URL('assets/customer/activity.svg') }}"    alt="status">
+            <img class="object-covers customer-item-overview" src="{{ URL('assets/customer/overview.svg') }}"    alt="status">
+            <!-- <img class="object-cover customer-item" src="{{ URL('assets/customer/statas.svg') }}"    alt="status"> -->
             </div>
             <div class=" p-5 customers-text">
             <h6>Does your website suck at acquiring <span>customers</span> ?</h6>
@@ -258,9 +263,10 @@
         
     
         <section class="website-section mt-3 mb-3">
+          <div class="container mx-auto px-4">
         <div class="p-2  grid md:grid-cols-2 gap-2">
            
-            <div class=" p-5 website-text sm:order-last">
+            <div class=" p-5 website-text ">
             <div class="">
             <img class="object-stars" src="{{ URL('assets/stars.png') }}"    alt="sssss">
             </div>
@@ -281,11 +287,16 @@
             </div>
             </div>
 
-            <div class="p-5  sm:order-1">
-            <img class="object-cover" src="{{ URL('assets/status.png') }}"    alt="sssss">
-            </div>
+            <div class="p-5   status-wrap">
+
+            <img class="object-cover status-bg" src="{{ URL('assets/website/statusbg.svg') }}"    alt="sssss">
+            <img class="object-cover status-bar" src="{{ URL('assets/website/status.svg') }}"    alt="sssss">
+            <img class="object-cover status-lead" src="{{ URL('assets/website/leads.svg') }}"    alt="sssss">
+           
+          </div>
           </div>
         </div>
+          </div>
         </section> 
 
 
