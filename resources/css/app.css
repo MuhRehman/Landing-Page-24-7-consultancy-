@@ -186,6 +186,7 @@ color: #999;
  }
  .status-wrap {
   position: relative;
+  height: 600px;
  }
  .status-wrap .status-bg {
   position: absolute;
